@@ -8,6 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/animate.css" />
+        <link rel="stylesheet" href="assets/css/tailwind.css" />
 
         <!-- Styles -->
         <style>
