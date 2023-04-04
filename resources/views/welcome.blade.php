@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Sigma Solutions
+      Sigma Solutions MX
     </title>
     <link
       rel="shortcut icon"
@@ -14,6 +14,8 @@
     />
     <link rel="stylesheet" href="{{asset('assets/css/animate.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/css/tailwind.css')}}" />
+    {{-- font awesome --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- ==== WOW JS ==== -->
     <script src="{{ asset('assets/js/wow.min.js') }}"></script>
@@ -29,7 +31,7 @@
       <div class="container">
         <div class="relative -mx-4 flex items-center justify-between">
           <div class="w-60 max-w-full px-4">
-            <a href="index.html" class="navbar-logo block py-5">
+            <a href="/" class="navbar-logo block py-5">
               <img
                 width="60%"
                 src="assets/images/logo/sigmasolutions_logo_color.svg"
@@ -83,14 +85,14 @@
                       Nosotros
                     </a>
                   </li>
-                  <li class="group relative">
+                  {{-- <li class="group relative">
                     <a
                       href="#team"
                       class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12"
                     >
                       Equipo
                     </a>
-                  </li>
+                  </li> --}}
                   
                   <li class="group relative">
                     <a
@@ -200,12 +202,12 @@
               <h1
                 class="mb-8 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug md:text-[45px] md:leading-snug"
               >
-                Servicios de calidad y Retrabajos
+              Actividades y servicios enfocados a la calidad
               </h1>
               <p
                 class="mx-auto mb-10 max-w-[600px] text-base text-[#e4e4e4] sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed"
               >
-                Para todo tipo de retrabajos
+              Todo tipo de retrabajos y soluciones
               </p>
               
               <div class="wow fadeInUp text-center" data-wow-delay=".3s">
@@ -1390,7 +1392,7 @@
               <p
                 class="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed"
               >
-                servicio 1, servicio 2, ...
+                Inspección, revisión, supervisión, clasificación, conteo, gestión de almacenes
               </p>
             </div>
           </div>
@@ -1421,7 +1423,8 @@
                 Equipo Profesional de trabajo
               </h4>
               <p class="mb-8 text-body-color lg:mb-11">
-                Contamos con personal altamente capacitado y entregados a dar la mejor calidad a nuestros clientes.
+                Contamos con personal altamente capacitado y comprometidos 
+                a brindar la calidad que nuestros clientes necesitan.
               </p>
               <!-- <a
                 href="javascript:void(0)"
@@ -1459,7 +1462,8 @@
                 Alta gama de servicios
               </h4>
               <p class="mb-8 text-body-color lg:mb-11">
-                Hemos participado en numerosos proyectos técnicos.
+                Hemos participado en numerosos proyectos técnicos
+                haciendonos tu mejor aliado para las soluciones que necesitas.
               </p>
               <!-- <a
                 href="javascript:void(0)"
@@ -1544,7 +1548,9 @@
                 Capacitaciones constantes
               </h4>
               <p class="mb-8 text-body-color lg:mb-11">
-                Nuesctros colabores están en constante capacitación para ofrecer un mayor número de servicios y de la mejor calidad.
+                Nuestros colabores están en constante capacitación para ofrecer
+                un mayor número de servicios y trabajamos día con día para superar nuestros propios
+                estándares de calidad.
               </p>
               <!-- <a
                 href="javascript:void(0)"
@@ -1582,13 +1588,17 @@
                   <h2
                     class="mb-6 text-3xl font-bold text-dark sm:text-4xl sm:leading-snug 2xl:text-[40px]"
                   >
-                    Colocar aquí Algo relacionado a nosotros como empresa (Título)
+                    Sigma Solutions MX  
                   </h2>
                   <p class="mb-9 text-base leading-relaxed text-body-color">
-                    Colocar en este párrafo un poco de detalle sobre nosotros.
+                    En nuestra empresa, nos dedicamos a garantizar la calidad de los productos y servicios que ofrecen nuestros clientes. 
+                    Nos enorgullece trabajar con empresas de todo tamaño y sector, ayudándoles a cumplir con los más altos estándares de calidad.
                   </p>
                   <p class="mb-9 text-base leading-relaxed text-body-color">
-                    Colocar en este otro parrafo algun otro detalle sobre nosotros.
+                    En nuestro equipo, contamos con expertos en diferentes áreas de la manufactura, lo que nos permite abordar cualquier desafío
+                    y garantizar la calidad en todas las etapas del proceso de producción. <br>
+                    Valoramos la transparencia, la honestidad y la colaboración. Estamos comprometidos a trabajar en estrecha 
+                    colaboración con nuestros clientes para entender sus necesidades y ofrecer soluciones personalizadas que se adapten a su negocio.
                   </p>
                   <!-- <a
                     href="javascript:void(0)"
@@ -1665,13 +1675,16 @@
                 </div>
                 <div class="w-full">
                   <h4 class="text-base font-semibold text-black sm:text-lg">
-                    Pregunta número 1
+                    ¿Qué es una sorteadora de calidad?
                   </h4>
                 </div>
               </button>
               <div class="faq-content hidden pl-[62px]">
                 <p class="py-3 text-base leading-relaxed text-body-color">
-                  Respuesta de la pregunta número 1
+                  Personal externo dentro de alguna planta industrial o en el proveedor
+                  de alguna empresa manufacturera que ayuda a cumplir distintos objetivos del control de calidad 
+                  sobre ciertos criterios conforme lo que llevan cada uno de los productos ensamblados
+                  o componentes producidos.
                 </p>
               </div>
             </div>
@@ -1699,50 +1712,20 @@
                 </div>
                 <div class="w-full">
                   <h4 class="text-base font-semibold text-black sm:text-lg">
-                    Pregunta número 2.
+                    ¿Qué ventajas me brinda contratar estos servicios?
                   </h4>
                 </div>
               </button>
               <div class="faq-content hidden pl-[62px]">
-                <p class="py-3 text-base leading-relaxed text-body-color">
-                  Respuesta de la pregunta número 2.
+                <p class="py-3 text-base leading-relaxed text-body-color">                  
+                  - Reducen las quejas de clientes por calidad no conforme <br>
+                  - Identifican acciones correctivas como el retrabajo y sus soluciones. <br>
+                  - Apoyan la reputación de un proveedor frente al mundo de las OEM <br>
+                  - Evitan los costos por productos, piezas o componentes defectuosose
                 </p>
               </div>
             </div>
-            <div
-              class="single-faq wow fadeInUp mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-5 sm:p-8"
-              data-wow-delay=".2s
-              "
-            >
-              <button class="faq-btn flex w-full items-center text-left">
-                <div
-                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary"
-                >
-                  <svg
-                    width="17"
-                    height="10"
-                    viewBox="0 0 17 10"
-                    class="icon fill-current"
-                  >
-                    <path
-                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                      fill="#3056D3"
-                      stroke="#3056D3"
-                    />
-                  </svg>
-                </div>
-                <div class="w-full">
-                  <h4 class="text-base font-semibold text-black sm:text-lg">
-                    Pregunta número 3
-                  </h4>
-                </div>
-              </button>
-              <div class="faq-content hidden pl-[62px]">
-                <p class="py-3 text-base leading-relaxed text-body-color">
-                  Respuest ade la pregunta número 3.
-                </p>
-              </div>
-            </div>
+            
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <div
@@ -1769,84 +1752,20 @@
                 </div>
                 <div class="w-full">
                   <h4 class="text-base font-semibold text-black sm:text-lg">
-                    Pregunta número 4.
+                    ¿Cuál es la importancia de una empresa sorteadora de piezas industriales?
                   </h4>
                 </div>
               </button>
               <div class="faq-content hidden pl-[62px]">
                 <p class="py-3 text-base leading-relaxed text-body-color">
-                  Respuesta de la pregunta número 4.
+                  Esta empresa tercera o tercería de calidad ayudara a que las empresas puedan proveer
+                  de componentes que entren dentro de los criterios de calidad y seguridad del usuario final, 
+                  recuerda que normalmente estos componentes pasan a ser ensamblados dentro de un producto 
+                  terminado por lo que una falla en cualquiera de sus piezas podría poner en riesgo la vida de su usuario.
                 </p>
               </div>
             </div>
-            <div
-              class="single-faq wow fadeInUp mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-5 sm:p-8"
-              data-wow-delay=".15s
-              "
-            >
-              <button class="faq-btn flex w-full items-center text-left">
-                <div
-                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary"
-                >
-                  <svg
-                    width="17"
-                    height="10"
-                    viewBox="0 0 17 10"
-                    class="icon fill-current"
-                  >
-                    <path
-                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                      fill="#3056D3"
-                      stroke="#3056D3"
-                    />
-                  </svg>
-                </div>
-                <div class="w-full">
-                  <h4 class="text-base font-semibold text-black sm:text-lg">
-                    Pregunta número 5.
-                  </h4>
-                </div>
-              </button>
-              <div class="faq-content hidden pl-[62px]">
-                <p class="py-3 text-base leading-relaxed text-body-color">
-                  Respuesta de la pregunta número 5.
-                </p>
-              </div>
-            </div>
-            <div
-              class="single-faq wow fadeInUp mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-5 sm:p-8"
-              data-wow-delay=".2s
-              "
-            >
-              <button class="faq-btn flex w-full items-center text-left">
-                <div
-                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary"
-                >
-                  <svg
-                    width="17"
-                    height="10"
-                    viewBox="0 0 17 10"
-                    class="icon fill-current"
-                  >
-                    <path
-                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-                      fill="#3056D3"
-                      stroke="#3056D3"
-                    />
-                  </svg>
-                </div>
-                <div class="w-full">
-                  <h4 class="text-base font-semibold text-black sm:text-lg">
-                    Pregunta númnero 6.
-                  </h4>
-                </div>
-              </button>
-              <div class="faq-content hidden pl-[62px]">
-                <p class="py-3 text-base leading-relaxed text-body-color">
-                  Respuesta de la pregunta número 6.
-                </p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -1884,7 +1803,7 @@
     <!-- ====== Faq Section End -->
 
     <!-- ====== Testimonials Start ====== -->
-    <section id="testimonials" class="pt-20 md:pt-[120px]">
+    {{-- <section id="testimonials" class="pt-20 md:pt-[120px]">
       <div class="container px-4">
         <div class="flex flex-wrap">
           <div class="mx-4 w-full">
@@ -2231,11 +2150,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}
     <!-- ====== Testimonials End ====== -->
 
     <!-- ====== Team Section Start -->
-    <section id="team" class="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+    {{-- <section id="team" class="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
       <div class="container">
         <div class="-mx-4 flex flex-wrap">
           <div class="w-full px-4">
@@ -4218,7 +4137,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}
     <!-- ====== Team Section End -->
     
     <!-- ====== Contact Start ====== -->
@@ -4278,17 +4197,14 @@
                   </div>
                   <div>
                     <h5 class="mb-6 text-lg font-semibold">¿Cómo podemos ayudarte?</h5>
-                    <p class="text-base text-body-color">Cel. 3312155747</p>
-                    <p class="text-base text-body-color">sigmasolutions.com</p>
-                    <p class="text-base text-body-color">
-                     contacto@sigmasolutions.com
-                    </p>
+                    <p class="text-sm text-body-color"><i class="fa-brands fa-whatsapp fa-bounce text-lg" style="color: #488b12;"></i> 33 2226 8824</p>
+                    <p class="text-sm text-body-color"><i class="fa-regular fa-envelope fa-bounce text-lg" style="color: #154eb2;"></i> contacto@sigmasolutionsmx.com</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-5/12 xl:w-4/12">
+          {{-- <div class="w-full px-4 lg:w-5/12 xl:w-4/12">
             <div
               class="wow fadeInUp rounded-lg bg-white py-10 px-8 shadow-testimonial sm:py-12 sm:px-10 md:p-[60px] lg:p-10 lg:py-12 lg:px-10 2xl:p-[60px]"
               data-wow-delay=".2s
@@ -4355,7 +4271,7 @@
                 </div>
               </form>
             </div>
-          </div>
+          </div> --}}
         </div>
       </div>
     </section>
@@ -4375,16 +4291,13 @@
                 class="mb-6 inline-block max-w-[160px]"
               >
                 <img
-                  src="assets/images/logo/logo-white.svg"
+                  src="assets/images/logo/isologotipo_white.svg"
                   alt="logo"
                   class="max-w-full"
                 />
               </a>
               <p class="mb-7 text-base text-[#f3f4fe]">
-                "Hacemos las cosas bien, desde el principio hasta el final".
-                "Calidad garantizada, retrabajos nunca necesarios".
-                "Comprometidos con la excelencia, comprometidos con usted".
-                "Servicios excepcionales, sin excepciones".
+                "Presición en cada calidad, calidad en cada resultado"
               </p>
               <div class="-mx-3 flex items-center">
                 <a
@@ -4468,14 +4381,14 @@
                     Inicio
                   </a>
                 </li>
-                <li>
+                {{-- <li>
                   <a
                     href="javascript:void(0)"
                     class="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary"
                   >
                     Features
                   </a>
-                </li>
+                </li> --}}
                 <li>
                   <a
                     href="javascript:void(0)"
@@ -4495,7 +4408,7 @@
               </ul>
             </div>
           </div>
-          <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
+          {{-- <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
             <div class="mb-10 w-full">
               <h4 class="mb-9 text-lg font-semibold text-white">Features</h4>
               <ul>
@@ -4533,7 +4446,7 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div> --}}
           <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
             <div class="mb-10 w-full">
               <h4 class="mb-9 text-lg font-semibold text-white">
@@ -4541,7 +4454,7 @@
               </h4>
               <ul>
                 <li>
-                    <span class="mb-2 inline-block text-base leading-loose text-[#f3f4fe]">Instalación de maquinaria</span>
+                    <span class="mb-2 inline-block text-base leading-loose text-[#f3f4fe]">Inspección, revisión, supervisión, clasificación, conteo, gestión de almacenes</span>
               </ul>
             </div>
           </div>
@@ -4551,40 +4464,10 @@
               <ul class="flex flex-wrap items-center">
                 <li>
                     <img
-                      src="assets/images/brands/Flex.svg"
-                      alt="Flex"
-                      width="30%"
+                      src="assets/images/brands/e3d.png"
+                      alt="Emblems3dUSA"
+                      width="40%"
                     />
-
-                </li>
-                <li>
-                    <img
-                      src="assets/images/brands/Jabil.svg"
-                      alt="Jabil"
-                      width="30%"
-                    />
-                </li>
-                <li>
-                    <img
-                      src="assets/images/brands/Samsung.svg"
-                      alt="Samsung"
-                      width="30%"
-                    />
-                </li>
-                <li>
-                    <img
-                      src="assets/images/brands/Sanmina.svg"
-                      alt="Sanmina"
-                      width="30%"
-                    />
-                </li>
-                <li>
-                    <img
-                      src="assets/images/brands/Tesla.svg"
-                      alt="Tesla"
-                      width="30%"
-                    />
-                </li>
               </ul>
             </div>
           </div>
