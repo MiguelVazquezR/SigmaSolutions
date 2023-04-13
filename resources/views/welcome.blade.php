@@ -202,12 +202,12 @@
               <h1
                 class="mb-8 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug md:text-[45px] md:leading-snug"
               >
-              Actividades y servicios enfocados a la calidad
+              Sigma Solutions MX
               </h1>
               <p
                 class="mx-auto mb-10 max-w-[600px] text-base text-[#e4e4e4] sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed"
               >
-              Todo tipo de retrabajos y soluciones
+              Actividades y servicios enfocados a la calidad
               </p>
               
               <div class="wow fadeInUp text-center" data-wow-delay=".3s">
@@ -4214,9 +4214,10 @@
                 class="mb-6 inline-block max-w-[160px]"
               >
                 <img
-                  src="public\assets\images\logo\sigmasolutions_logo_color.svg"
+                  src="assets\images\logo\sigmasolutions_logo_color.svg"
+                  style="z-index: 999"
                   alt="logo"
-                  class="max-w-full z-10"
+                  class="max-w-full z-90"
                 />
               </a>
               <p class="mb-7 text-base text-[#f3f4fe]">
